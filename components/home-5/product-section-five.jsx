@@ -15,7 +15,7 @@ const ProductSectionFive = () => {
                     </div>
                     <div className="col-lg-4 col-md-4">
                         <div className="product-area-btn product-slider-area-btn style-5">
-                            <Link href="/shop"><a className="border-btn"><span>view all</span><i className="fal fa-long-arrow-right"></i></a></Link>
+                            <Link href="/shop" className="border-btn"><span>view all</span><i className="fal fa-long-arrow-right"></i></Link>
                         </div>
                     </div>
                 </div>

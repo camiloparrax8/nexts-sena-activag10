@@ -71,7 +71,7 @@ const ProductSliderFive = () => {
                                             <SwiperSlide key={index}>
                                                 <div className="product-single style-2">
                                                     <div className="product-thumb">
-                                                        <Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="" /></a></Link>
+                                                        <Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="" /></Link>
                                                         <div className={item.trendingClass}><i className={item.trendingValue}></i></div>
                                                         <div className="product-batches">
                                                             <div className={item.newClass}>{item.newValue}</div>
@@ -84,7 +84,7 @@ const ProductSliderFive = () => {
                                                         </div>
                                                     </div>
                                                     <div className="product-description">
-                                                        <h4 className="product-name"><Link href={`/shop-details/${item.id}`}><a>{item.productTitle}</a></Link></h4>
+                                                        <h4 className="product-name"><Link href={`/shop-details/${item.id}`}>{item.productTitle}</Link></h4>
                                                         <div className="product-price">
                                                             <span className="price-old">${item.priceOld}</span>
                                                             <span className="price-now">${item.price}</span>

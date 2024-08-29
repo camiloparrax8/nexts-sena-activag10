@@ -20,11 +20,11 @@ const SidebarCart = ({ openCart, setOpenCart }) => {
                         {cartProducts.map((item, index) => (
                             <div className="sidebar-list-item" key={index}>
                                 <div className="product-image pos-rel">
-                                    <Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="" /></a></Link>
+                                    <Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="" /></Link>
                                 </div>
                                 <div className="product-desc">
                                     <div className="product-name">
-                                        <Link href={`/shop-details/${item.id}`}><a>{item.productTitle} </a></Link>
+                                        <Link href={`/shop-details/${item.id}`}>{item.productTitle} </Link>
                                     </div>
                                     <div className="product-pricing">
                                         <span className="item-number">{item?.quantity}</span>
@@ -40,8 +40,8 @@ const SidebarCart = ({ openCart, setOpenCart }) => {
                             <span className="subtotal-price">${parseFloat(total)}</span>
                         </div>
                         <div className="sidebar-action-btn">
-                            <Link href="/cart"><a className="fill-btn">View cart</a></Link>
-                            <Link href="/checkout"><a className="border-btn">Checkout</a></Link>
+                            <Link href="/cart" className="fill-btn">View cart</Link>
+                            <Link href="/checkout" className="border-btn">Checkout</Link>
                         </div></>}
                 </div>
             </div>

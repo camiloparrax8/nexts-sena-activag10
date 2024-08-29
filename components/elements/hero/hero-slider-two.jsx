@@ -88,7 +88,7 @@ const HeroSliderTwo = () => {
                                                                         {item.slidereviewText}
                                                                     </div>
                                                                 </div>
-                                                                <Link href="/contact"><a className="fill-btn-rounded">{item.sliderBtn} <i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href="/contact"  className="fill-btn-rounded">{item.sliderBtn} <i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>

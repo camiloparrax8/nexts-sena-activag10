@@ -22,11 +22,11 @@ const TeamSection = () => {
                      <div className="team-single style-4 mb-30">
                         <div className="team-member-wrapper">
                            <div className="member-img">
-                              <Link href={`/team-details/${item.id}`}><a><img src={item.teamImg} alt=""/></a></Link>
+                              <Link href={`/team-details/${item.id}`}><img src={item.teamImg} alt=""/></Link>
                            </div>
                            <div className="member-content">
                               <span className="member-designation">{item.teamSubtitle}</span>
-                              <h4 className="member-name"><Link href={`/team-details/${item.id}`}><a>{item.teamTitle}</a></Link></h4>
+                              <h4 className="member-name"><Link href={`/team-details/${item.id}`}>{item.teamTitle}</Link></h4>
                               <div className="social-links team-social">
                                  <ul>
                                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>

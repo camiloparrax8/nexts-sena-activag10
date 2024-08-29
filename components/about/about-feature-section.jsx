@@ -21,7 +21,7 @@ const AboutFeatureSection = () => {
                                     <img src="/assets/img/icon/mission-icon.png" alt="" />
                                 </div>
                                 <h4>{getTranslation(language, 'about.mision.title')}</h4>
-                                <Link href="/contact"><a className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                <Link href="/contact" className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -35,7 +35,7 @@ const AboutFeatureSection = () => {
                                     <img src="/assets/img/icon/vision-icon.png" alt="" />
                                 </div>
                                 <h4>{getTranslation(language, 'about.vision.title')}</h4>
-                                <Link href="/contact"><a className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                <Link href="/contact" className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
@@ -49,7 +49,7 @@ const AboutFeatureSection = () => {
                                     <img src="/assets/img/icon/approach-icon.png" alt="" />
                                 </div>
                                 <h4>{getTranslation(language, 'about.goal.title')}</h4>
-                                <Link href="/contact"><a className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                <Link href="/contact" className="strategy-arrow"><i className="fal fa-long-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

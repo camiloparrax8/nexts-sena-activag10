@@ -116,7 +116,7 @@ const PricingSection = () => {
                                  </div>
                               </div>
                               <div className="pricing-btn">
-                                 <Link href="/contact"><a className="fill-btn"><i className="fas fa-shopping-basket"></i>{item.packageBtn}</a></Link>
+                                 <Link href="/contact" className="fill-btn"><i className="fas fa-shopping-basket"></i>{item.packageBtn}</Link>
                               </div>
                            </div>
                         </div>

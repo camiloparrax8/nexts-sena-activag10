@@ -82,18 +82,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -102,10 +102,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,18 +165,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -185,10 +185,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -248,18 +248,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -268,10 +268,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -331,18 +331,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -351,10 +351,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -414,18 +414,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -434,10 +434,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -497,18 +497,18 @@ const PortfolioSection = () => {
                                                 <div className="swiper-slidess">
                                                     <div className="portfolio-single portfolio-bottom-content">
                                                         <div className="portfolio-thumb">
-                                                            <Link href={`/portfolio-details/${item.id}`}><a>
+                                                            <Link href={`/portfolio-details/${item.id}`}>
                                                                 <div className="beforeAfter">
                                                                     <img src={item.portfolioImg} />
                                                                 </div>
-                                                            </a></Link>
+                                                            </Link>
                                                         </div>
                                                         <div className="portfolio-content">
                                                             <div className="portfolio-inner">
                                                                 <div className="portfolio-meta-list">
                                                                     <div className="portfolio-meta-single">
                                                                         <div className="portfolio-meta-text">
-                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTag}</a></Link></span>
+                                                                            <span className="portfolio-tag"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTag}</Link></span>
                                                                         </div>
                                                                     </div>
                                                                     <div className="portfolio-meta-single">
@@ -517,10 +517,10 @@ const PortfolioSection = () => {
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                             </div>
                                                             <div className="portfolio-btn">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className="fal fa-long-arrow-right"></i></Link>
                                                             </div>
                                                         </div>
                                                     </div>

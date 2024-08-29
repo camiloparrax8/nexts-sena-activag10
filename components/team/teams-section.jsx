@@ -14,7 +14,7 @@ const TeamsSection = () => {
                         <div className="team-single mb-30">
                             <div className="team-member-wrapper">
                             <div className="member-img">
-                                <Link href={`/team-details/${item.id}`}><a><img src={item.teamImg} alt=""/></a></Link>
+                                <Link href={`/team-details/${item.id}`}><img src={item.teamImg} alt=""/></Link>
                             </div>
                             <div className="member-content">
                                 <span className="member-designation">{item.teamSubtitle}</span>

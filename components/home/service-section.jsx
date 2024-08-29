@@ -20,7 +20,7 @@ const ServiceSection = () => {
                                 <div className="service-icon">
                                     <i className={item.serviceIcon}></i>
                                 </div>
-                                <h4 className="service-title"><Link href={`/service-details/${item.id}`}><a>{item.serviceTitle}</a></Link></h4>
+                                <h4 className="service-title"><Link href={`/service-details/${item.id}`}>{item.serviceTitle}</Link></h4>
                                 <p>{item.serviceDesc}</p>
                             </div>
                             </div>
@@ -35,7 +35,7 @@ const ServiceSection = () => {
                   </div>
                   <h3>Provides Hassle-Free Backyard Transformations
                      with Artistic Solutions.</h3>
-                    <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                    <Link href="/contact" className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
                </div>
             </div>
          </div>

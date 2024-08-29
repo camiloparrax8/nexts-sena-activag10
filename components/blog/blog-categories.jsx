@@ -39,10 +39,10 @@ const BlogCategories = () => {
                 <ul>
                     {blogCategoryItems.map((item, num) => ( 
                         <li key={num}>
-                            <Link href="/blog"><a>
+                            <Link href="/blog">
                                 <span className="category-name">{item.catName}</span>
                                 <div className="category-item-number">{item.catNumber}</div>
-                            </a></Link>
+                            </Link>
                         </li>
                     ))}
                 </ul>

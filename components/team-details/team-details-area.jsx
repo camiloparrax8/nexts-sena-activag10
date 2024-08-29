@@ -20,7 +20,7 @@ const TeamDetailsArea = ({ item }) => {
                         <div className="breadcrumb-menu">
                             <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
                                 <ul className="trail-items">
-                                    <li className="trail-item trail-begin"><Link href="/"><a><span>Home</span></a></Link></li>
+                                    <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
                                     <li className="trail-item trail-end"><span>Team Details</span></li>
                                 </ul>
                             </nav>

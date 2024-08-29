@@ -21,7 +21,7 @@ const BlogSectionTwo = ({blog_area_class , blog_single_class}) => {
                                 <div className="col-lg-4 col-md-6" key={num}>
                                     <div className={`blog-single ${blog_single_class ? blog_single_class : 'style-2 mb-45'}`}>
                                         <div className="blog-thumb">
-                                            <Link href={`/blog-details/${item.id}`}><a><img src={item.img} alt="" /></a></Link>
+                                            <Link href={`/blog-details/${item.id}`}><img src={item.img} alt="" /></Link>
                                         </div>
                                         <div className="blog-content">
                                             <div className="blog-meta-list">
@@ -36,9 +36,9 @@ const BlogSectionTwo = ({blog_area_class , blog_single_class}) => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <h2 className="blog-title"><Link href={`/blog-details/${item.id}`}><a>{item.title}</a></Link></h2>
+                                            <h2 className="blog-title"><Link href={`/blog-details/${item.id}`}>{item.title}</Link></h2>
                                             <div className="blog-btn">
-                                                <Link href={`/blog-details/${item.id}`}><a className="text-btn"><i className="fal fa-long-arrow-right"></i>{item.blogBtn}<i className="fal fa-long-arrow-right"></i></a></Link>
+                                                <Link href={`/blog-details/${item.id}`} className="text-btn"><i className="fal fa-long-arrow-right"></i>{item.blogBtn}<i className="fal fa-long-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>

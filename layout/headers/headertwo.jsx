@@ -43,7 +43,7 @@ const HeaderTwo = () => {
                         <div className="meta-header-inner">
                             <div className="meta-header-left">
                                 <div className="header-logo header2-logo">
-                                    <Link href="/"><a className="logo-w"><img src="/assets/img/logo/logo-w.png" alt="logo-img" /></a></Link>
+                                    <Link href="/" className="logo-w"><img src="/assets/img/logo/logo-w.png" alt="logo-img" /></Link>
                                 </div>
                             </div>
                             <div className="meta-header-right">
@@ -74,7 +74,7 @@ const HeaderTwo = () => {
                                 </div>
                                 <span className="action-btn cart-btn d-inline-flex action-item-cart" onClick={()=> setOpenCart(true)}><i
                                     className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span>
-                                <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                                <Link href="/contact" className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
                                 <div className="menu-bar d-lg-none">
                                     <span className="side-toggle" onClick={() => setShowSidebar(true)}>
                                         <div className="bar-icon">

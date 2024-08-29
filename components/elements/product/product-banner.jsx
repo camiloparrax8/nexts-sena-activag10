@@ -45,11 +45,11 @@ const ProductBanner = () => {
                                             <div className="swiper-slidess">
                                                 <div className="category-single category-basic">
                                                     <div className="category-thumb">
-                                                        <Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="" /></a></Link>
+                                                        <Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="" /></Link>
                                                     </div>
                                                     <div className="category-content">
                                                         <span className="in-stock"><span className="stock-amount">{item.stock}</span> {item.productSubTitle}</span>
-                                                        <h4 className="category-name"><Link href={`/shop-details/${item.id}`}><a>{item.productTitle}</a></Link></h4>
+                                                        <h4 className="category-name"><Link href={`/shop-details/${item.id}`}>{item.productTitle}</Link></h4>
                                                     </div>
                                                 </div>
                                             </div>

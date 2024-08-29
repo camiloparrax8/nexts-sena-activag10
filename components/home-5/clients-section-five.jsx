@@ -24,7 +24,7 @@ const ClientsSectionFive = () => {
                   <img src="/assets/img/shape/pattern-1270.png" alt=""/>
                </div>
                <h3><i className="flaticon-house"></i>Provides Hassle-Free Backyard Transformations with Artistic Solutions.</h3>
-                <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                <Link href="/contact" className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
             </div>
          </div>
       </div>

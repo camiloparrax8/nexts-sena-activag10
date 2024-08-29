@@ -32,17 +32,17 @@ const BlogSectionMain = () => {
                         <div key={i} className="blog-single">
 
                            {!blog.video && !blog.slider && !blog.withoutImg && <div className="blog-thumb">
-                              <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
+                              <Link href={`/blog-details/${blog.id}`}><img src={blog.img} alt="" /></Link>
                            </div>}
 
                            {blog.video && <div className="blog-thumb">
                               <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openVideoModal(); }} />
-                              <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
+                              <Link href={`/blog-details/${blog.id}`}><img src={blog.img} alt="" /></Link>
                               <span className="play-btn popup-video play-border-effect" onClick={() => { openVideoModal(); }}><i className="fas fa-play"></i></span>
                            </div>}
 
                            {blog.withoutImg && <div className="blog-thumb d-none">
-                              <Link href={`/blog-details/${blog.id}`}><a><img src="/assets/img/blog/blog-3.jpg" alt=""/></a></Link>
+                              <Link href={`/blog-details/${blog.id}`}><img src="/assets/img/blog/blog-3.jpg" alt=""/></Link>
                            </div>}
 
                            {blog.slider && <div className="blog-thumb">
@@ -66,17 +66,17 @@ const BlogSectionMain = () => {
                                     >
                                        <SwiperSlide>
                                           <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
+                                             <Link href={`/blog-details/${blog.id}`}><img src={blog.img} alt="" /></Link>
                                           </div>
                                        </SwiperSlide>
                                        <SwiperSlide>
                                           <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.imgA} alt="" /></a></Link>
+                                             <Link href={`/blog-details/${blog.id}`}><img src={blog.imgA} alt="" /></Link>
                                           </div>
                                        </SwiperSlide>
                                        <SwiperSlide>
                                           <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.imgB} alt="" /></a></Link>
+                                             <Link href={`/blog-details/${blog.id}`}><img src={blog.imgB} alt="" /></Link>
                                           </div>
                                        </SwiperSlide>
                                     </Swiper>
@@ -94,8 +94,8 @@ const BlogSectionMain = () => {
 
                            <div className="blog-content">
                               <div className={blog.catClass}>
-                                 <Link href="/blog"><a>{blog.blogCat} </a></Link>
-                                 <Link href="/blog"><a>{blog.blogCatA}</a></Link>
+                                 <Link href="/blog">{blog.blogCat} </Link>
+                                 <Link href="/blog">{blog.blogCatA}</Link>
                               </div>
                               <div className={blog.authorClass}>
                                  <div className="author-img">
@@ -103,7 +103,7 @@ const BlogSectionMain = () => {
                                  </div>
                                  <h4 className="author-name">{blog.metaBy} <a href="#">{blog.metaAuthor}</a></h4>
                               </div>
-                              <h2 className="blog-title"><Link href={`/blog-details/${blog.id}`}><a>{blog.title}</a></Link></h2>
+                              <h2 className="blog-title"><Link href={`/blog-details/${blog.id}`}>{blog.title}</Link></h2>
                               <p>{blog.desc}</p>
                               <div className="hr-1"></div>
                               <div className="blog-meta-list">
@@ -120,7 +120,7 @@ const BlogSectionMain = () => {
                                        <i className="fas fa-comments"></i>
                                     </div>
                                     <div className="blog-meta-text">
-                                       <Link href={`/blog-details/${blog.id}`}><a>{blog.blogComment}</a></Link>
+                                       <Link href={`/blog-details/${blog.id}`}>{blog.blogComment}</Link>
                                     </div>
                                  </div>
                                  <div className="blog-meta-single">

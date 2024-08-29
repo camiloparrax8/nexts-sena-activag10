@@ -28,9 +28,9 @@ const ServiceSectionTwo = () => {
                                         </div>
                                         <div className="single-service-content">
                                             <span className="service-number"></span>
-                                            <h4 className="service-title"><Link href={`/service-details/${item.id}`}><a>{item.serviceTitle}</a></Link></h4>
+                                            <h4 className="service-title"><Link href={`/service-details/${item.id}`}>{item.serviceTitle}</Link></h4>
                                             <p>{item.serviceDesc}</p>
-                                            <Link href={`/service-details/${item.id}`}><a className='text-btn'><i className="fal fa-long-arrow-right"></i>{item.serviceBtn}<i className="fal fa-long-arrow-right"></i></a></Link>
+                                            <Link href={`/service-details/${item.id}`} className='text-btn'><i className="fal fa-long-arrow-right"></i>{item.serviceBtn}<i className="fal fa-long-arrow-right"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ const ServiceSectionTwo = () => {
                         <img src="/assets/img/shape/pattern-1270.png" alt="" />
                     </div>
                     <h3><i className="flaticon-house"></i>Provides Hassle-Free Backyard Transformations with Artistic Solutions.</h3>
-                    <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                    <Link href="/contact" className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></Link>
                 </div>
             </div>
         </section>

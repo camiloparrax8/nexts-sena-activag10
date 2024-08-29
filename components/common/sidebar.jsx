@@ -22,7 +22,7 @@ const Sidebar = () => {
                         <div className="offset-widget offset-logo mb-40">
                             <div className="row align-items-center">
                                 <div className="col-9">
-                                    <Link href="/"><a><img src="/assets/img/logo/logo-bl.png" alt="Logo" /></a></Link>
+                                    <Link href="/"><img src="/assets/img/logo/logo-bl.png" alt="Logo" /></Link>
                                 </div>
                                 <div className="col-3 text-end"><button className="side-info-close" onClick={() => setShowSidebar(false)}><i className="fal fa-times"></i></button></div>
                             </div>

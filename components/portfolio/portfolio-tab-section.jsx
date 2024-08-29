@@ -33,13 +33,13 @@ const PortfolioTabSection = () => {
                         {portfolioList.slice(15, 27).map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
-                                 <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                 <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                  <div className="portfolio-content">
-                                    <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                     <div className="portfolio-inner">
                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                       <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                       <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                     </div>
                                  </div>
                               </div>
@@ -52,13 +52,13 @@ const PortfolioTabSection = () => {
                         {portfolioList.slice(18, 27).map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
-                                 <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                 <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                  <div className="portfolio-content">
-                                    <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`}  className="portfolio-hover-bg"></Link>
                                     <div className="portfolio-inner">
                                        <span className="portfolio-tag">{item.portfolioTag}</span>
-                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                       <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                       <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                       <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                     </div>
                                  </div>
                               </div>
@@ -71,13 +71,13 @@ const PortfolioTabSection = () => {
                             {portfolioList.slice(15, 21).map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -90,13 +90,13 @@ const PortfolioTabSection = () => {
                             {portfolioList.slice(23, 27).map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -109,13 +109,13 @@ const PortfolioTabSection = () => {
                             {portfolioList.slice(15, 19).map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -128,13 +128,13 @@ const PortfolioTabSection = () => {
                             {portfolioList.slice(23, 27).map((item, num) => (
                             <div className="portfolio-single portfolio-hover-style" key={num}>
                                 <div className="portfolio-thumb">
-                                    <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
+                                    <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt=""/></Link>
                                     <div className="portfolio-content">
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                        <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                         <div className="portfolio-inner">
                                         <span className="portfolio-tag">{item.portfolioTag}</span>
-                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
-                                        <Link href={`/portfolio-details/${item.id}`}><a className="icon-btn"><i className={item.portfolioIcon}></i></a></Link>
+                                        <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
+                                        <Link href={`/portfolio-details/${item.id}`} className="icon-btn"><i className={item.portfolioIcon}></i></Link>
                                         </div>
                                     </div>
                                 </div>

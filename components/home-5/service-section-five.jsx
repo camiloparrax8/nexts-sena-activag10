@@ -26,7 +26,7 @@ const ServiceSectionFive = () => {
                            </div>
                            <div className="single-service-content">
                               <span className="service-number"></span>
-                              <h4 className="service-title"><Link href={`/service-details/${item.id}`}><a>{item.serviceTitle}</a></Link></h4>
+                              <h4 className="service-title"><Link href={`/service-details/${item.id}`}>{item.serviceTitle}</Link></h4>
                               <p>{item.serviceDesc}</p>
                            </div>
                         </div>

@@ -18,14 +18,14 @@ const FooterFour = () => {
                             <div className="col-lg-8 col-md-12 col-sm-12">
                                 <div className="footer-widget footer4-widget footer4-widget1 mb-0">
                                     <div className="footer-logo">
-                                        <Link href="/"><a><img src="/assets/img/logo/logo-w.png" alt="" /></a></Link>
+                                        <Link href="/"><img src="/assets/img/logo/logo-w.png" alt="" /></Link>
                                     </div>
                                     <div className="footer-text">
                                         <p>{getTranslation(language, 'home.footer.footer-text')}: +57 3012546886 <br />
                                             calle 33 #4-27 Tierralta</p>
                                     </div>
                                     <div className="footer-btn">
-                                        <Link href="/contact"><a className="border-btn"><i className="fal fa-farm"></i><span>{getTranslation(language, 'home.footer.footer-btn-text')}</span></a></Link>
+                                        <Link href="/contact" className="border-btn"><i className="fal fa-farm"></i><span>{getTranslation(language, 'home.footer.footer-btn-text')}</span></Link>
                                     </div>
                                     <div className="footer-social">
                                         <span>{getTranslation(language, 'home.footer.footer-social-text')}</span>

@@ -75,7 +75,7 @@ const ProductModal = ({item}) => {
                                 </div>
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="product__modal-content">
-                                        <h4><Link href={`/shop-details/${product?.id}`}><a>{product?.productTitle}</a></Link></h4>
+                                        <h4><Link href={`/shop-details/${product?.id}`}>{product?.productTitle}</Link></h4>
                                         <div className="product__modal-des mb-40">
                                             <p>Typi non habent claritatem insitam, est usus legentis in iis qui facit eorum
                                                 claritatem.

@@ -39,7 +39,7 @@ const HeroSlider = () => {
         <div className="banner-area banner-area1 pos-rel">
             <div className="banner-meta-link">
                 <h4>Make A Order</h4>
-                <p><Link href="/about"><a>Let’s Talk About Product</a></Link></p>
+                <p><Link href="/about">Let’s Talk About Product</Link></p>
             </div>
             <div className="swiper-container slider__active">
                 {SliderItem &&
@@ -93,8 +93,8 @@ const HeroSlider = () => {
                                                             </div>
                                                             <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
-                                                                <Link href="/about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>
+                                                                <Link href="/contact" className="fill-btn-rounded">{item.sliderbtn}</Link>
+                                                                <Link href="/about" className="border-btn-rounded">{item.sliderbtn2}</Link>
                                                             </div>
                                                         </div>
                                                     </div>

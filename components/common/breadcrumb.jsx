@@ -19,7 +19,7 @@ const Breadcrumb = ({ breadTitle, breadSubtitle, breadHome, breadMenu }) => {
                <div className="breadcrumb-menu">
                   <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
                      <ul className="trail-items">
-                        <li className="trail-item trail-begin"><Link href="/"><a><span>{breadHome}</span></a></Link></li>
+                        <li className="trail-item trail-begin"><Link href="/"><span>{breadHome}</span></Link></li>
                         <li className="trail-item trail-end"><span>{breadMenu}</span></li>
                      </ul>
                   </nav>

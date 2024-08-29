@@ -20,7 +20,7 @@ const PortfolioDetailsArea = ({ item }) => {
                         <div className="breadcrumb-menu">
                             <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
                                 <ul className="trail-items">
-                                    <li className="trail-item trail-begin"><Link href="/"><a><span>Home</span></a></Link></li>
+                                    <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
                                     <li className="trail-item trail-end"><span>Portfolio Details</span></li>
                                 </ul>
                             </nav>
@@ -64,7 +64,7 @@ const PortfolioDetailsArea = ({ item }) => {
                             apart in an Internet awash with thin, dull filler copy. We develop your feature articles, newsletters,
                             white papers, social media messages harmoniously to generate top internet
                             rankings in any market. We take pride in giving your blog, newsletter or website the professional
-                            polish it deserves and helping you build your brand. <Link href="/team"><a>Our marketing team</a></Link> has
+                            polish it deserves and helping you build your brand. <Link href="/team">Our marketing team</Link> has
                             more than three decades of industry experience developing and promoting content across a broad
                             spectrum of channels. Our integrated marketing strategies have a proven
                             success record backed with industry-leading database management tools. When you choose Business

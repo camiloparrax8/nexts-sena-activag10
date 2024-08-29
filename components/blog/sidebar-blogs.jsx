@@ -13,10 +13,10 @@ const SidebarBlogs = () => {
                             <li key={num}>
                                 <div className="blog-single">
                                     <div className="blog-thumb">
-                                        <Link href={`/blog-details/${item.id}`}><a><img src={item.img} alt="" /></a></Link>
+                                        <Link href={`/blog-details/${item.id}`}><img src={item.img} alt="" /></Link>
                                     </div>
                                     <div className="blog-content">
-                                        <h2 className="blog-title"><Link href={`/blog-details/${item.id}`}><a>{item.title}</a></Link></h2>
+                                        <h2 className="blog-title"><Link href={`/blog-details/${item.id}`}>{item.title}</Link></h2>
                                         <div className="blog-meta-list">
                                             <div className="blog-meta-single">
                                                 <div className="blog-meta-icon">

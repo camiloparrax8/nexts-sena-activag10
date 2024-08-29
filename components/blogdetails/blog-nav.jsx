@@ -7,11 +7,11 @@ const BlogNav = () => {
             <div className="blog-nav-items">
                 <div className="blog-single">
                     <div className="blog-img">
-                        <Link href="/blog-details"><a><img src="/assets/img/portfolio/portfolio-3.jpg" alt="" /></a></Link>
+                        <Link href="/blog-details"><img src="/assets/img/portfolio/portfolio-3.jpg" alt="" /></Link>
                     </div>
                     <div className="blog-content">
                         <span>Prev post</span>
-                        <h4 className="blog-title"><Link href="/blog-details"><a>Tips On Minimalist</a></Link></h4>
+                        <h4 className="blog-title"><Link href="/blog-details">Tips On Minimalist</Link></h4>
                     </div>
                 </div>
                 <div className="dot-icon">
@@ -24,11 +24,11 @@ const BlogNav = () => {
                 </div>
                 <div className="blog-single">
                     <div className="blog-img">
-                        <Link href="/blog-details"><a><img src="/assets/img/portfolio/portfolio-4.jpg" alt="" /></a></Link>
+                        <Link href="/blog-details"><img src="/assets/img/portfolio/portfolio-4.jpg" alt="" /></Link>
                     </div>
                     <div className="blog-content">
                         <span>Next post</span>
-                        <h4 className="blog-title"><Link href="/blog-details"><a>Less Is More</a></Link></h4>
+                        <h4 className="blog-title"><Link href="/blog-details">Less Is More</Link></h4>
                     </div>
                 </div>
             </div>

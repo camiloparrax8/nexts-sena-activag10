@@ -37,8 +37,8 @@ const WishlistSection = () => {
                                     <tbody>
                                     {wishlist.map((item, index) => (
                                         <tr key={index}>
-                                            <td className="product-thumbnail"><Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="img"/></a></Link></td>
-                                            <td className="product-name"><Link href={`/shop-details/${item.id}`}><a>{item.productTitle}</a></Link></td>
+                                            <td className="product-thumbnail"><Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="img"/></Link></td>
+                                            <td className="product-name"><Link href={`/shop-details/${item.id}`}>{item.productTitle}</Link></td>
                                             <td className="product-price"><span className="amount">${item.price}</span></td>
                                             <td className="product-quantity">
                                                 <button className="border-btn" onClick={() => dispatch(cart_product(item))}>Add to Cart</button>

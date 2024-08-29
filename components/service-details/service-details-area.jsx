@@ -20,7 +20,7 @@ const ServiceDetailsArea = ({ item }) => {
                         <div className="breadcrumb-menu">
                             <nav aria-label="Breadcrumbs" className="breadcrumb-trail breadcrumbs">
                                 <ul className="trail-items">
-                                    <li className="trail-item trail-begin"><Link href="/"><a><span>Home</span></a></Link></li>
+                                    <li className="trail-item trail-begin"><Link href="/"><span>Home</span></Link></li>
                                     <li className="trail-item trail-end"><span>Service Details</span></li>
                                 </ul>
                             </nav>
@@ -132,11 +132,11 @@ const ServiceDetailsArea = ({ item }) => {
                                     <h4 className="sidebar-widget-title">Our Services</h4>
                                     <div className="sidebar-service-list">
                                         <ul>
-                                            <li><Link href="/service"><a>Green Technology</a></Link></li>
-                                            <li><Link href="/service"><a>Urban Gardening</a></Link></li>
-                                            <li><Link href="/service"><a>Nursery/Tree Farm</a></Link></li>
-                                            <li><Link href="/service"><a>Trimming & Pruning</a></Link></li>
-                                            <li><Link href="/service"><a>Soil Preparing</a></Link></li>
+                                            <li><Link href="/service">Green Technology</Link></li>
+                                            <li><Link href="/service">Urban Gardening</Link></li>
+                                            <li><Link href="/service">Nursery/Tree Farm</Link></li>
+                                            <li><Link href="/service">Trimming & Pruning</Link></li>
+                                            <li><Link href="/service">Soil Preparing</Link></li>
                                         </ul>
                                     </div>
                                 </div>

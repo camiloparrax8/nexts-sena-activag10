@@ -61,7 +61,7 @@ const AboutSectionTwo = () => {
                         </div>
                      </div>
                      <div className="about-btn">
-                        <Link href="/contact"><a className="border-btn-rounded">learn more<i className="fal fa-long-arrow-right"></i></a></Link>
+                        <Link href="/contact" className="border-btn-rounded">learn more<i className="fal fa-long-arrow-right"></i></Link>
                      </div>
                   </div>
                </div>

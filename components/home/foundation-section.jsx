@@ -34,7 +34,7 @@ const FoundationSection = () => {
                                         <h4 className="founder-name">humble d. dowson</h4>
                                     </div>
                                 </div>
-                                <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                                <Link href="/contact"  className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></Link>
                             </div>
                         </div>
                     </div>

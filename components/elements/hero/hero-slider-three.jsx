@@ -72,7 +72,7 @@ const HeroSliderThree = () => {
                                                             </div>
                                                             <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}<i className="fal fa-long-arrow-right"></i></a></Link>
+                                                                <Link href="/contact" className="fill-btn-rounded">{item.sliderbtn}<i className="fal fa-long-arrow-right"></i></Link>
                                                                 <span className="play-btn popup-video play-border-effect" onClick={() => { openVideoModal(); }}><i className="fas fa-play"></i></span>
                                                             </div>
                                                         </div>

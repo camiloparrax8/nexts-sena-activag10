@@ -7,9 +7,9 @@ const BlogActions = () => {
             <div>
                 <h4>Releted Tags</h4>
                 <div className="blog-tag-list">
-                    <Link href="/blog"><a className="tag">Popular</a></Link>
-                    <Link href="/blog"><a className="tag">Design</a></Link>
-                    <Link href="/blog"><a className="tag">UX</a></Link>
+                    <Link href="/blog" className="tag">Popular</Link>
+                    <Link href="/blog" className="tag">Design</Link>
+                    <Link href="/blog" className="tag">UX</Link>
                 </div>
             </div>
             <div>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from 'next/link';
 
 const SEO = ({ pageTitle,font }) => (
   <>
@@ -14,8 +15,8 @@ const SEO = ({ pageTitle,font }) => (
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       
-      {font && <link href={font} rel="stylesheet" />}
-      <link rel="icon" href="/favicon.png" />
+      {font && <Link href={font} rel="stylesheet" />}
+      <Link rel="icon" href="/favicon.png" />
     </Head>
   </>
 );

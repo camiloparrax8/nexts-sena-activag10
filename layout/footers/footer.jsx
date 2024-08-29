@@ -38,17 +38,17 @@ const FooterOne = () => {
                                     <h4>main pages</h4>
                                 </div>
                                 <ul>
-                                    <li><Link href="/"><a>Home</a></Link></li>
-                                    <li><Link href="/about"><a>about</a></Link></li>
-                                    <li><Link href="/services"><a>services</a></Link></li>
-                                    <li><Link href="/blog"><a>news</a></Link></li>
-                                    <li><Link href="/team"><a>Team</a></Link></li>
+                                    <li><Link href="/">Home</Link></li>
+                                    <li><Link href="/about">about</Link></li>
+                                    <li><Link href="/services">services</Link></li>
+                                    <li><Link href="/blog">news</Link></li>
+                                    <li><Link href="/team">Team</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link href="/contact"><a>refund policy</a></Link></li>
-                                    <li><Link href="/contact"><a>Get in touch</a></Link></li>
-                                    <li><Link href="/contact"><a>Emergency</a></Link></li>
-                                    <li><Link href="/contact"><a>get a quote</a></Link></li>
+                                    <li><Link href="/contact">refund policy</Link></li>
+                                    <li><Link href="/contact">Get in touch</Link></li>
+                                    <li><Link href="/contact">Emergency</Link></li>
+                                    <li><Link href="/contact">get a quote</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,11 +58,11 @@ const FooterOne = () => {
                                     <h4>our services</h4>
                                 </div>
                                 <ul>
-                                    <li><Link href="/services"><a>Lawn Moving</a></Link></li>
-                                    <li><Link href="/services"><a>Hedge Cutting</a></Link></li>
-                                    <li><Link href="/services"><a>Flower Planting</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Remodeling</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Restoration</a></Link></li>
+                                    <li><Link href="/services">Lawn Moving</Link></li>
+                                    <li><Link href="/services">Hedge Cutting</Link></li>
+                                    <li><Link href="/services">Flower Planting</Link></li>
+                                    <li><Link href="/services">Garden Remodeling</Link></li>
+                                    <li><Link href="/services">Garden Restoration</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ const FooterOne = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-3 col-md-4">
                                 <div className="footer-logo">
-                                    <Link href="/"><a><img src="/assets/img/logo/logo-w.png" alt="" /></a></Link>
+                                    <Link href="/"><img src="/assets/img/logo/logo-w.png" alt="" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">

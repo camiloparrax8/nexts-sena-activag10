@@ -87,13 +87,13 @@ const PortfolioSlider = () => {
                                                     <div className="swiper-slidess">
                                                         <div className="portfolio-single portfolio-hover-style style-2">
                                                             <div className="portfolio-thumb">
-                                                                <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt="" /></a></Link>
+                                                                <Link href={`/portfolio-details/${item.id}`}><img src={item.portfolioImg} alt="" /></Link>
                                                                 <div className="portfolio-content">
-                                                                    <Link href={`/portfolio-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                                                    <Link href={`/portfolio-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                                                     <div className="portfolio-inner">
                                                                         <div className="portfolio-inner-text">
                                                                             <span className="portfolio-tag">{item.portfolioTag}</span>
-                                                                            <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}><a>{item.portfolioTitle}</a></Link></h4>
+                                                                            <h4 className="portfolio-title"><Link href={`/portfolio-details/${item.id}`}>{item.portfolioTitle}</Link></h4>
                                                                         </div>
                                                                         <span onClick={setOpen}>
                                                                             <button className="icon-btn image-popups" onClick={() => setPhotoIndex(index)}><i className={item.portfolioIcon}></i></button>

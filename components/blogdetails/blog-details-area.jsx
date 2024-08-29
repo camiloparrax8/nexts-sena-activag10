@@ -39,7 +39,7 @@ const BlogDetailsArea = ({ item }) => {
                                     <i className="fas fa-comments"></i>
                                  </div>
                                  <div className="blog-meta-text">
-                                    <Link href="/blog-details"><a>{item.blogComment}</a></Link>
+                                    <Link href="/blog-details">{item.blogComment}</Link>
                                  </div>
                               </div>
                               <div className="blog-meta-single">

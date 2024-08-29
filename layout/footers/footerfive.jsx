@@ -11,7 +11,7 @@ const FooterFive = () => {
                             <div className="col-lg-8 col-md-12 col-sm-12">
                                 <div className="footer-widget footer5-widget footer5-widget1 mb-0">
                                     <div className="footer-logo">
-                                        <Link href="/"><a><img src="/assets/img/logo/logo-bl.png" alt=""/></a></Link>
+                                        <Link href="/"><img src="/assets/img/logo/logo-bl.png" alt=""/></Link>
                                     </div>
                                     <div className="footer-text">
                                         <p>Most gardens consist of a mix of natural and constructed elements, although
@@ -38,9 +38,9 @@ const FooterFive = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-3 col-md-6 order-lg-1">
                                 <div className="footer-links">
-                                    <Link href="/about"><a>ABOUT</a></Link>
-                                    <Link href="/blog"><a>BLOG</a></Link>
-                                    <Link href="/contact"><a>CONTACT</a></Link>
+                                    <Link href="/about">ABOUT</Link>
+                                    <Link href="/blog">BLOG</Link>
+                                    <Link href="/contact">CONTACT</Link>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6 order-lg-3">

@@ -46,9 +46,9 @@ const PortfolioSectionFour = () => {
                             {portfolioList.map((item, index) => (
                                 <div className="portfolio-single portfolio-hover-style style-4" key={index}>
                                     <div className="portfolio-thumb">
-                                        <Link href={`/shop-details/${item.id}`}><a><img src={item.portfolioImg} alt="" /></a></Link>
+                                        <Link href={`/shop-details/${item.id}`}><img src={item.portfolioImg} alt="" /></Link>
                                         <div className="portfolio-content">
-                                            <Link href={`/shop-details/${item.id}`}><a className="portfolio-hover-bg"></a></Link>
+                                            <Link href={`/shop-details/${item.id}`} className="portfolio-hover-bg"></Link>
                                             <div className="portfolio-inner">
                                                 <div className="portfolio-inner-text">
                                                     {/* <span className="portfolio-tag">{item.portfolioTag}</span> */}

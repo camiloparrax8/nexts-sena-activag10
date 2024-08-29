@@ -10,7 +10,7 @@ const FooterThree = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <div className="footer-logo">
-                                    <Link href="/"><a><img src="/assets/img/logo/logo-w.png" alt="" /></a></Link>
+                                    <Link href="/"><img src="/assets/img/logo/logo-w.png" alt="" /></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -40,17 +40,17 @@ const FooterThree = () => {
                                         <h4>main pages</h4>
                                     </div>
                                     <ul>
-                                    <li><Link href="/"><a>Home</a></Link></li>
-                                    <li><Link href="/about"><a>about</a></Link></li>
-                                    <li><Link href="/services"><a>services</a></Link></li>
-                                    <li><Link href="/blog"><a>news</a></Link></li>
-                                    <li><Link href="/team"><a>Team</a></Link></li>
+                                    <li><Link href="/">Home</Link></li>
+                                    <li><Link href="/about">about</Link></li>
+                                    <li><Link href="/services">services</Link></li>
+                                    <li><Link href="/blog">news</Link></li>
+                                    <li><Link href="/team">Team</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><Link href="/contact"><a>refund policy</a></Link></li>
-                                    <li><Link href="/contact"><a>Get in touch</a></Link></li>
-                                    <li><Link href="/contact"><a>Emergency</a></Link></li>
-                                    <li><Link href="/contact"><a>get a quote</a></Link></li>
+                                    <li><Link href="/contact">refund policy</Link></li>
+                                    <li><Link href="/contact">Get in touch</Link></li>
+                                    <li><Link href="/contact">Emergency</Link></li>
+                                    <li><Link href="/contact">get a quote</Link></li>
                                 </ul>
                                 </div>
                             </div>
@@ -60,11 +60,11 @@ const FooterThree = () => {
                                         <h4>our services</h4>
                                     </div>
                                     <ul>
-                                    <li><Link href="/services"><a>Lawn Moving</a></Link></li>
-                                    <li><Link href="/services"><a>Hedge Cutting</a></Link></li>
-                                    <li><Link href="/services"><a>Flower Planting</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Remodeling</a></Link></li>
-                                    <li><Link href="/services"><a>Garden Restoration</a></Link></li>
+                                    <li><Link href="/services">Lawn Moving</Link></li>
+                                    <li><Link href="/services">Hedge Cutting</Link></li>
+                                    <li><Link href="/services">Flower Planting</Link></li>
+                                    <li><Link href="/services">Garden Remodeling</Link></li>
+                                    <li><Link href="/services">Garden Restoration</Link></li>
                                 </ul>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ const FooterThree = () => {
                                     <div className="footer-blog">
                                         <div className="blog-single">
                                             <div className="blog-thumb">
-                                                <Link href="/blog"><a><img src="/assets/img/blog/blog-14.jpg" alt="" /></a></Link>
+                                                <Link href="/blog"><img src="/assets/img/blog/blog-14.jpg" alt="" /></Link>
                                             </div>
                                             <div className="blog-content">
                                                 <div className="blog-meta-list">
@@ -101,12 +101,12 @@ const FooterThree = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h2 className="blog-title"><Link href="/blog"><a>gardens consist of a mix of natural</a></Link></h2>
+                                                <h2 className="blog-title"><Link href="/blog">gardens consist of a mix of natural</Link></h2>
                                             </div>
                                         </div>
                                         <div className="blog-single">
                                             <div className="blog-thumb">
-                                                <Link href="/blog"><a><img src="/assets/img/blog/blog-7.jpg" alt="" /></a></Link> 
+                                                <Link href="/blog"><img src="/assets/img/blog/blog-7.jpg" alt="" /></Link> 
                                             </div>
                                             <div className="blog-content">
                                                 <div className="blog-meta-list">
@@ -116,8 +116,8 @@ const FooterThree = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h2 className="blog-title"><Link href="/blog"><a>Achieve this just
-                                                    right blend</a></Link></h2>
+                                                <h2 className="blog-title"><Link href="/blog">Achieve this just
+                                                    right blend</Link></h2>
                                             </div>
                                         </div>
                                     </div>
@@ -134,8 +134,8 @@ const FooterThree = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <div className="footer-links">
-                                    <Link href="/contact"><a>environment soluton</a></Link>
-                                    <Link href="/faq"><a>faq</a></Link>
+                                    <Link href="/contact">environment soluton</Link>
+                                    <Link href="/faq">faq</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">

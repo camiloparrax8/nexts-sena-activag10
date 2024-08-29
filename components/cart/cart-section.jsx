@@ -41,9 +41,9 @@ const CartSection = () => {
                                         {cartProducts.map((item, index) => (
                                         <tr key={index}>
                                             <td className="product-thumbnail">
-                                                <Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="" /></a></Link>
+                                                <Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="" /></Link>
                                             </td>
-                                            <td className="product-name"><Link href={`/shop-details/${item.id}`}><a>{item.productTitle}</a></Link></td>
+                                            <td className="product-name"><Link href={`/shop-details/${item.id}`}>{item.productTitle}</Link></td>
                                             <td className="product-price"><span className="amount">${item.price}</span></td>
                                             <td className="product-quantity text-center">
                                                 <div className="product-quantity mt-10 mb-10">
@@ -86,7 +86,7 @@ const CartSection = () => {
                                         <li>Subtotal <span>${parseFloat(total)}</span></li>
                                         <li>Total <span>${parseFloat(total)}</span></li>
                                     </ul>
-                                    <Link href="/checkout"><a className="border-btn">Proceed to checkout</a></Link>
+                                    <Link href="/checkout"  className="border-btn">Proceed to checkout</Link>
                                 </div>
                             </div>
                         </div>

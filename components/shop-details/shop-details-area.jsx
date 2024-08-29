@@ -94,7 +94,7 @@ const ShopDetailsArea = ({ item }) => {
                                             <button className="cart-plus" onClick={()=> dispatch(cart_product(item))}><i className="far fa-plus"></i></button>
                                         </form>
                                     </div>
-                                    <Link href="/cart"><a className="fill-btn"><i className="fas fa-shopping-basket"></i>Add to Cart</a></Link>
+                                    <Link href="/cart" className="fill-btn"><i className="fas fa-shopping-basket"></i>Add to Cart</Link>
                                     <button className="border-btn" type='button' onClick={() => dispatch(add_to_wishlist(item))}><i className="fas fa-heart"></i></button>
                                 </div>
                                 <div className="product-d-meta sku mb-10">

@@ -74,8 +74,8 @@ const HeroSliderFive = () => {
                                                                 </div>
                                                                 <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                                 <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                    <Link href="/contact"><a className="fill-btn">{item.sliderbtn}</a></Link>
-                                                                    <Link href="/shop"><a className="fill-btn banner-shop-btn">{item.sliderbtn1}</a></Link>
+                                                                    <Link href="/contact" className="fill-btn">{item.sliderbtn}</Link>
+                                                                    <Link href="/shop" className="fill-btn banner-shop-btn">{item.sliderbtn1}</Link>
                                                                 </div>
                                                             </div>
                                                         </div>

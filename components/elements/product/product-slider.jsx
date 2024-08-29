@@ -50,7 +50,7 @@ const ProductSlider = () => {
                                 <SwiperSlide key={index}>
                                     <div className="product-single">
                                         <div className="product-thumb">
-                                            <Link href={`/shop-details/${item.id}`}><a><img src={item.productImg} alt="" /></a></Link>
+                                            <Link href={`/shop-details/${item.id}`}><img src={item.productImg} alt="" /></Link>
                                             <div className="product-item-action">
                                                 <span onClick={() => dispatch(cart_product(item))}><i className={item.cartIcon}></i></span>
                                                 <span onClick={() => dispatch(getSingleProduct(item))} data-bs-toggle="modal" data-bs-target="#productModalId"><i className={item.cartEye}></i></span>
@@ -65,7 +65,7 @@ const ProductSlider = () => {
                                                 <a href="#"><i className={item.ratingD}></i></a>
                                                 <a href="#"><i className={item.ratingE}></i></a>
                                             </div>
-                                            <h4 className="product-name"><Link href={`/shop-details/${item.id}`}><a>{item.productTitle}</a></Link></h4>
+                                            <h4 className="product-name"><Link href={`/shop-details/${item.id}`}>{item.productTitle}</Link></h4>
                                             <div className="product-price">
                                                 <span className="price-old">${item.priceOld}</span>
                                                 <span className="price-now">${item.price}</span>
